@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "graffiti-city";
+  src: url(/fonts/graffiti-city.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/Roboto-Light.ttf);
+}
+
+body {
+  background-color: #e96f70;
+}
+
+.bodyCopy {
+  font-family: "Roboto";
+}

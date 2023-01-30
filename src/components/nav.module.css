@@ -1,0 +1,18 @@
+nav {
+  background-color: #384048;
+  padding: 5px;
+}
+.nav-links {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  text-decoration: none;
+  font-family: "graffiti-city", serif;
+  color: #ffffff;
+  font-size: 24px
+}
