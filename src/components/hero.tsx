@@ -1,7 +1,10 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image"
 import { hero, heroText, heroImage } from "./hero.module.css";
-const Hero = ({heroImgSrc}) => {
+import { useStaticQuery, graphql } from "gatsby";
+import Img from "gatsby-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+const Hero = () => {
   return (
     <div className={hero}>
       <div className={heroImage}>

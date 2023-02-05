@@ -17,7 +17,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li className={navLinkItem}>
-          <Link to="#" className={navLinkText}>
+          <Link to="/events/shred2023" className={navLinkText}>
             Events
           </Link>
         </li>
