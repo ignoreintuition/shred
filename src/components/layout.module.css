@@ -7,6 +7,17 @@
   padding: 25px
 }
 
+.social {
+  display: flex;
+  flex-flow: column wrap;
+  width: 24px;
+  padding: 5px;
+}
+
+.social svg {
+  fill: #ffffff
+}
+
 .masthead {
   display: flex;
   flex-flow: wrap; 
@@ -33,8 +44,10 @@
 }
 
 .topRibbon {
+  display: flex;
   min-height: 50px;
   background-color: #384048;
+  justify-content: flex-end;
 }
 
 .heading {
@@ -42,6 +55,7 @@
   text-align: center; 
   font-size: 2.6rem;
   color: #ffffff;
+  display: flex;
 }
 
 @media (max-width: 768px) {

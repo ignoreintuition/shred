@@ -2,7 +2,7 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import NavBar from "./nav.tsx";
-import Footer from "./footer.tsx"
+import Footer from "./footer.tsx";
 import {
   topRibbon,
   masthead,
@@ -10,14 +10,19 @@ import {
   tagline,
   container,
   heading,
+  social,
 } from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <div className={topRibbon}>
-          <StaticImage src="../images/facebook.svg" alt="logo" />
-          <StaticImage src="../images/instagram.svg" alt="logo" />
+      <div className={social}>
+        <StaticImage src={`../images/facebook.svg`} alt="facebook" />
+      </div>
+      <div className={social}>
+        <StaticImage src={`../images/instagram.svg`} alt="instagram" />
+      </div>
       </div>
       <div className={masthead}>
         <div className={logo}>
@@ -32,9 +37,7 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
-        <div>
-        .
-        </div>
+      <div>.</div>
       <Footer />
     </div>
   );

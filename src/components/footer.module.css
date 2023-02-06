@@ -4,5 +4,7 @@
 }
 
 .footerText {
+  font-size: 1rem;
   color: #ffffff;
+  font-family: "Roboto", serif;
 }
