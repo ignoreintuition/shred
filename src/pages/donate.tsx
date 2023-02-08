@@ -1,9 +1,10 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Donate from "../components/donate"
 const DonatePage = () => {
   return (
     <Layout pageTitle="Donate">
-      Coming Soon
+     <Donate /> 
     </Layout>
   );
 };
