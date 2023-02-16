@@ -1,11 +1,11 @@
-.donate {
+.shop {
   background-color: #384048;
   display: flex;
   min-height: 500px;
   flex-flow: wrap; 
 }
 
-.donateImage {
+.shopImage {
   padding: 20px;
   width: 40%;
   display: flex;
@@ -13,23 +13,7 @@
   flex-direction: column;
 }
 
-.logo {
-  padding: 20px;
-  width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.qrCode {
-  padding: 20px;
-  width: 20%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.donateText {
+.shopText {
   padding: 20px;
   font-size: 1rem;
   color: #ffffff;
@@ -41,10 +25,10 @@
 }
 
 @media (max-width: 768px) {
- .donateImage {
+ .shopImage {
     width: 100%;
   }
-  .donateText {
+  .shopText {
     width: 100%;
   }
 }

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import "../styles/global.css";
 import NavBar from "./nav.tsx";
@@ -18,10 +19,14 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <div className={topRibbon}>
       <div className={social}>
-        <StaticImage src={`../images/facebook.svg`} alt="facebook" />
+        <Link to='https://www.facebook.com/shredclt'>
+          <StaticImage src={`../images/facebook.svg`} alt="facebook" />
+        </Link>
       </div>
       <div className={social}>
-        <StaticImage src={`../images/instagram.svg`} alt="instagram" />
+        <Link to='https://www.instagram.com/shredclt/?hl=en'>
+          <StaticImage src={`../images/instagram.svg`} alt="instagram" />
+        </Link>
       </div>
       </div>
       <div className={masthead}>
