@@ -1,0 +1,16 @@
+import * as React from "react";
+import { events, eventsText, eventsImage } from "./events.module.css";
+const About = ()=> {
+  return (
+    <div className={events}>
+      <div className={eventsImage}>
+        
+      </div>
+      <div className={eventsText}>
+
+      </div>
+    </div>
+  );
+};
+
+export default About;

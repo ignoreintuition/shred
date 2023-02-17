@@ -17,7 +17,10 @@ const About = ()=> {
         Man" Werany and the Ospina's were neighbors. Vic learned of how the
         Ospina's struggled both financially and emotionally throughout
         navigating Gabe's complex medical needs, including two stem cell therapy
-        treatments costing $48k+. Shortly thereafter, an idea was hatched from a
+        treatments costing $48k+. 
+      </p>
+      <p>
+        Shortly thereafter, an idea was hatched from a
         13 year old who wanted to use skateboarding as a way to help his
         community. Vic got to work with the Ospina's to create the first SHRED
         event at a skatepark in Rockhill, NC. The event was a blast and a darn
@@ -27,7 +30,10 @@ const About = ()=> {
         as some of the bigger skaters pushed him, in his wheelchair, up and down
         the ramps. After seeing that joy and Luke and Gabe's friendship, both
         Vic and the Ospina's agreed that benefiting as many families as possible
-        with an annual event only made sense. SHRED is a 501(c)(3) registered
+        with an annual event only made sense. 
+      </p>
+      <p>
+        SHRED is a 501(c)(3) registered
         organization with a 2022 goal of $40k and beyond!
       </p>
       </div>

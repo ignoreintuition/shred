@@ -1,5 +1,5 @@
 import * as React from "react";
-import { contact, flexLabel, flexOuter, flexText } from "./contact.module.css";
+import { contact, flexLabel, flexOuter, flexText, flexButton} from "./contact.module.css";
 const About = () => {
   return (
     <div className={contact}>
@@ -53,7 +53,9 @@ const About = () => {
             </div>
           </div>
           <div className={flexOuter}>
+            <div className={flexButton}>
             <button type="submit">Send</button>
+            </div>
           </div>
         </div>
       </form>

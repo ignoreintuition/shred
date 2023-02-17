@@ -1,0 +1,34 @@
+.events {
+  background-color: #384048;
+  display: flex;
+  min-height: 500px;
+  flex-flow: wrap; 
+}
+
+.eventsImage {
+  padding: 20px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.eventsText {
+  padding: 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Roboto", serif;
+}
+
+@media (max-width: 768px) {
+ .eventsImage {
+    width: 100%;
+  }
+  .eventsText {
+    width: 100%;
+  }
+}
