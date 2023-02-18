@@ -1,0 +1,35 @@
+.cardContainer {
+  background-color: #e96f70;
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cardImage {
+  justify-self: center;
+  padding: 20px;
+  object-fit: fill;
+}
+
+.cardHeader {
+  padding: 25px;
+  font-family: "graffiti-city", serif;
+  text-align: center; 
+  font-size: 2.6rem;
+  color: #ffffff;
+  display: flex;
+}
+
+.cardLink {
+  padding: 10px;
+  margin: 10px;
+  font-family: "graffiti-city", serif;
+  text-align: center; 
+  font-size: 1.7rem;
+  color: #ffffff;
+  background-color: #384048;
+
+}

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { events, eventsText, eventsImage } from "./events.module.css";
-const About = ()=> {
+const Event = ()=> {
   return (
     <div className={events}>
       <div className={eventsImage}>
@@ -13,4 +13,4 @@ const About = ()=> {
   );
 };
 
-export default About;
+export default Event;
